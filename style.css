@@ -17,67 +17,42 @@ header {
     z-index: 1;
 }
 
-#wholeBody {
-    display: flex;
-    justify-content:space-around;
+.wholeBody {
+    position: relative;
+    margin: auto;
 }
 
-.body-diagram > ul{
-    list-style: none;
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
-#square {
-    width: 100px;
-    height: 100px;
-    background: red;
-    margin-bottom: 10px;
-    text-align: center;
-    line-height: 100px;
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
-#circle {
-    width: 100px;
-    height: 100px;
-    background: red;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    text-align: center;
-    line-height: 100px;
-}
-
-#triangle {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid red;
-    margin-bottom: 10px;
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
     text-align: center;
 }
 
-#triangle-word {
-    position:relative;
-    top:45px;
-    right:23px;
-}
-
-#trapezoid {
-    border-bottom: 100px solid red;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    height: 0;
-    width: 80px;
+.mySlides {
+    width: 100%;
     text-align: center;
-    line-height: 100px;
+    
 }
-
-
-
-.body-values > ul {
-    list-style: none;
-}
-
-.body-values > ul > li {
-    margin: 20px;
-}
-
