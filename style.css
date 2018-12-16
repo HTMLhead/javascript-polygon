@@ -53,6 +53,23 @@ header {
 
 .mySlides {
     width: 100%;
-    text-align: center;
-    
+    text-align: center;   
+}
+
+.diagram-name {
+    font-size:50px;
+}
+
+.calc-button {
+    font-size:20px;
+    cursor: pointer;
+    margin:10px;
+}
+
+.values{
+    margin:15px;
+}
+
+.inputer {
+    margin:2px;
 }
