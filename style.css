@@ -1,3 +1,7 @@
+header {
+    position: static;
+    margin: 30px;
+}
 #header-word{
     position: relative;
     font-size:80px;
@@ -5,10 +9,75 @@
 }
 
 #header-background {
-    position: absolute;
-    top:50px;
+    position: relative;
     width: 80%;
     height: 80px;
+    bottom: 50px;
     background-color:rgb(164, 238, 164);
     z-index: 1;
 }
+
+#wholeBody {
+    display: flex;
+    justify-content:space-around;
+}
+
+.body-diagram > ul{
+    list-style: none;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#triangle-word {
+    position:relative;
+    top:45px;
+    right:23px;
+}
+
+#trapezoid {
+    border-bottom: 100px solid red;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    height: 0;
+    width: 80px;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+
+.body-values > ul {
+    list-style: none;
+}
+
+.body-values > ul > li {
+    margin: 20px;
+}
+
